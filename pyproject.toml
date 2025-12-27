@@ -1,9 +1,9 @@
 [project]
-name = "product-graph"
+name = "google-as-investigation"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "bpatel347",email = "bpatel347@gatech.edu"}
+    {name = "Boney Patel",email = "boneypatel37@yahoo.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12,<3.15"
@@ -16,7 +16,8 @@ dependencies = [
     "nltk (>=3.9.2,<4.0.0)",
     "matplotlib (>=3.10.8,<4.0.0)",
     "scikit-learn (>=1.8.0,<2.0.0)",
-    "umap-learn (>=0.5.9.post2,<0.6.0)"
+    "umap-learn (>=0.5.9.post2,<0.6.0)",
+    "datasets (>=4.4.2,<5.0.0)"
 ]
 
 [tool.poetry]

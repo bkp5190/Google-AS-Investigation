@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import logging
 import numpy as np
 
-from data.load_data import SearchPair, load_search_pairs
+from data.loaders import SearchPair, load_search_pairs
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
